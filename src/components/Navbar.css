@@ -10,6 +10,22 @@
     top: 0;
     z-index: 999;
   }
+
+  .social-media-container {
+    padding-top: 3px;
+    align-items: right;
+  }
+
+  .social-media {
+    background-color: #812EE6;
+    height: 30px;
+    width: 100%;
+  }
+
+  .social-media-container {
+    margin: auto;
+    display: flex;
+  }
   
   .navbar-container {
     display: flex;

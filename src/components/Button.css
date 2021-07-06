@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 :root {
     --primary: #fff;
 }
 
 .btn {
     padding: 8px 20px;
-    border-radius: 50px;
+    border-radius: 5px;
     outline: none;
     border: none;
     cursor: pointer;
 }
 
 .btn--primary {
-    background-color: var(--primary);
-    color: #242424;
-    border: 1px solid var(--primary);
+    /* background-color: var(--primary); */
+    background-color: #7E00FF;
+    color: white;
+    /* border: 1px solid var(--primary); */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn--outline {
@@ -31,7 +35,7 @@
 
 .btn--large {
     padding: 12px 26px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .btn--medium:hover,

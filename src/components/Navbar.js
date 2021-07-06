@@ -26,6 +26,11 @@ function Navbar() {
 
     return (
         <>
+            <nav className="social-media">
+                <div className="social-media-container">
+                    <img src={require('./content/images/instagram-logo.png').default} className='logo'/>
+                </div>
+            </nav>
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
