@@ -1,10 +1,25 @@
 .cards {
     padding: 4rem;
     background: #fff;
+    text-align: center;
   }
   
   h1 {
     text-align: center;
+  }
+
+  .cards > h1 {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Rubik', sans-serif;
+    display: inline;
+  }
+  .cards > h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Rubik', sans-serif;
+    color: #812EE6;
+    display: inline;
   }
   
   .cards__container {
@@ -66,7 +81,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: #812EE6;
     box-sizing: border-box;
   }
   
@@ -94,7 +109,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: #000;
     font-size: 18px;
     line-height: 24px;
   }
@@ -116,3 +131,22 @@
       margin-bottom: 2rem;
     }
   }
+
+.headings {
+  padding-top: 4rem;
+}
+
+.headings > h1 {
+  text-align: center;
+    font-size: 34px;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    display: inline-block;
+}
+.headings > h2 {
+  text-align: center;
+  font-size: 34px;
+  font-family: 'Rubik', sans-serif;
+  color: #812EE6;
+  display: inline-block;
+}
