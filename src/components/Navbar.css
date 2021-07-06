@@ -59,7 +59,7 @@
   }
   
   .nav-item {
-    height: 95px;
+    vertical-align: center;
     text-decoration: none;
     padding: 2rem;
     color: white;
